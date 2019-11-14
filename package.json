@@ -1,0 +1,25 @@
+{
+  "name": "Pdkm-Exam",
+  "version": "1.0.0",
+  "description": "My finest Nuxt.js project",
+  "author": "Onkanya",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development nodemon server/index.js --watch server",
+    "build": "nuxt build",
+    "start": "cross-env NODE_ENV=production node server/index.js",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.3.6",
+    "cross-env": "^5.2.0",
+    "element-ui": "^2.4.11",
+    "express": "^4.16.4",
+    "firebase": "^7.3.0",
+    "nuxt": "^2.0.0",
+    "vue-dayjs-plugin": "^1.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
